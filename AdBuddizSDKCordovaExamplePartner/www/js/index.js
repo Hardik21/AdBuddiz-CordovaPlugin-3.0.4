@@ -16,8 +16,8 @@ var app = {
 
     onDeviceReady: function() {
         adbuddiz.setLogLevel(adbuddiz.LogLevel.Info);                   // log level
-        adbuddiz.setAndroidPublisherKey("TEST_PUBLISHER_KEY_ANDROID");  // replace with your Android app publisher key
-        adbuddiz.setIOSPublisherKey("TEST_PUBLISHER_KEY_IOS");          // replace with your iOS app publisher key
+        adbuddiz.setAndroidPublisherKey("449abee2-3375-4a1f-9d1e-95d2810f5d77");  // replace with your Android app publisher key
+        //adbuddiz.setIOSPublisherKey("TEST_PUBLISHER_KEY_IOS");          // replace with your iOS app publisher key
         adbuddiz.setTestModeActive();                                   // to delete before submitting to store
         
         adbuddiz.cacheAds();                                            // start caching ads
